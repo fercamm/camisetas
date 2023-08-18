@@ -1,0 +1,535 @@
+#content_center {
+  border: 1px solid #aaa;
+  border-radius: 12px;
+  padding: 5px;  
+}
+
+.switch_text {
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.img_numero {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+@media (max-width: 767px) {
+  .img_base {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .img_principal {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+  }
+
+  .img_logo {
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .img_secundaria {
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+  }
+
+}
+  .img_base {
+    z-index: 1;
+    position: absolute;
+  }
+  
+  .img_principal {
+    z-index: 2;
+    position: absolute;
+  }
+
+  .img_logo {
+    z-index: 9999;
+    position: absolute;
+  }
+  
+  .img_secundaria {
+    z-index: 3;
+    position: absolute;
+  }
+
+  .img_base_short {
+    z-index: 1;
+    position: absolute;
+  }
+  
+  .img_principal_short {
+    z-index: 2;
+    position: absolute;
+  }
+  
+  .img_secundaria_short {
+    z-index: 3;
+    position: absolute;
+  }
+
+  .img_base_short_arquero {
+    z-index: 1;
+    position: absolute;
+  }
+  
+  .img_principal_short_arquero {
+    z-index: 2;
+    position: absolute;
+  }
+  
+  .img_secundaria_short_arquero {
+    z-index: 3;
+    position: absolute;
+  }
+  
+  .formato_nro_back {
+    position: relative;
+    /* top: -50%;
+    left: 8%; */
+    z-index: 999999;
+  }
+
+  .formato_nro_back_arquero {
+    position: relative;
+    /* top: -50%;
+    left: 8%; */
+    z-index: 999999;
+  }
+
+  .list_box {
+    width: 320px;
+    height: auto;
+    display: inline-block;
+    list-style-type: none;
+  }
+
+  .list_box li {
+    list-style-type: none;
+    width: 89px;
+    height: 83px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    float: left;
+    margin: 0 5px 5px 0;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 13px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+
+  .list_box li img {
+    width: 100%;
+  }
+
+  .options {
+    width: 366px;
+    margin-top: 20px;
+  }
+  .options li {
+      width: 94px;
+      float: left;
+      border: 2px solid #959595;
+      border-radius: 6px;
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      text-align: center;
+      padding: 2px;
+      margin: 0 8px 28px 0;
+      cursor: pointer;
+  }
+  .options li img {
+    max-width: 74px;
+    max-height: 86px;
+  }
+  .options ul {
+    list-style-type: none;
+  }
+
+  #options_diseno {
+    width: 366px;
+    margin-top: 20px;
+  }
+  #options_diseno .sel_diseno_page_2, #options_diseno .sel_diseno_page_3, #options_diseno .sel_diseno_page_4 {
+    display: none;
+  }
+  #options_diseno li {
+      width: 94px;
+      float: left;
+      border: 2px solid #959595;
+      border-radius: 6px;
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      text-align: center;
+      padding: 2px;
+      margin: 0 8px 28px 0;
+      cursor: pointer;
+  }
+  #options_diseno li img {
+    max-width: 74px;
+    max-height: 86px;
+  }
+  #options_diseno ul {
+    list-style-type: none;
+  }
+
+  #options_diseno_arquero {
+    width: 366px;
+    margin-top: 20px;
+  }
+  #options_diseno_arquero .sel_diseno_page_arquero_2, #options_diseno_arquero .sel_diseno_page_arquero_3, #options_diseno_arquero .sel_diseno_page_arquero_4 {
+    display: none;
+  }
+  #options_diseno_arquero li {
+      width: 94px;
+      float: left;
+      border: 2px solid #959595;
+      border-radius: 6px;
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      text-align: center;
+      padding: 2px;
+      margin: 0 8px 28px 0;
+      cursor: pointer;
+  }
+  #options_diseno_arquero li img {
+    max-width: 74px;
+    max-height: 86px;
+  }
+
+  #options_diseno_arquero ul {
+    list-style-type: none;
+  }
+
+  #options_diseno_short {
+width: 366px;
+margin-top: 20px; }
+#options_diseno_short li {
+width: 94px;
+float: left;
+border: 2px solid #959595;
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+text-align: center;
+padding: 2px;
+margin: 0 8px 8px 0;
+cursor: pointer; }
+#options_diseno_short li img {
+  max-width: 74px;
+  max-height: 86px; }
+
+#options_diseno_short_arquero {
+width: 366px;
+margin-top: 20px; }
+#options_diseno_short_arquero li {
+width: 94px;
+float: left;
+border: 2px solid #959595;
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+text-align: center;
+padding: 2px;
+margin: 0 8px 8px 0;
+cursor: pointer; }
+#options_doptions_diseno_short_arqueroiseno_short li img {
+  max-width: 74px;
+  max-height: 86px; }
+
+#paginador_diseno {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%; }
+#paginador_diseno span {
+cursor: pointer;
+margin: 0 !important;
+width: 25px;
+padding-top: 5px;
+/* height: 20px; */
+font-weight: bold;
+text-align: center;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px; }
+#paginador_diseno #btn_pg_prev, #paginador_diseno_arquero #btn_pg_prev_arquero, #paginador_diseno #btn_pg_next {
+font-size: 12px;
+text-transform: none;
+width: 80px; }
+#paginador_diseno .selected_page {
+color: #ffffff;
+background: #d93d3d; }
+
+#paginador_diseno_arquero {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%; }
+#paginador_diseno_arquero span {
+cursor: pointer;
+margin: 0 !important;
+width: 25px;
+padding-top: 5px;
+/* height: 20px; */
+font-weight: bold;
+text-align: center;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px; }
+#paginador_diseno_arquero #btn_pg_prev, #paginador_diseno_arquero #btn_pg_next_arquero {
+font-size: 12px;
+text-transform: none;
+width: 80px; }
+#paginador_diseno_arquero .selected_page {
+color: #ffffff;
+background: #d93d3d; }
+
+  .colores_list {
+    width: 310px;
+    margin-bottom: 11px;
+    display: inline-block;
+  }
+  
+  .colores_list li {
+    list-style-type: none;
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .color_1 {
+    background: #dacd4a;
+  }
+
+  .color_2 {
+    background: #293e7a; }
+
+  .color_3 {
+    background: #1e263f; }
+
+  .color_4 {
+    background: #ffffff;
+    border: 1px solid #c2c2c2;
+    width: 22px;
+    height: 22px;
+  }
+
+  .color_5 {
+    background: #6d0b1c; }
+
+  .color_6 {
+    background: #6b96a6; }
+
+  .color_7 {
+    background: #4d8fcc; }
+
+  .color_8 {
+    background: #f392cc; }
+
+  .color_9 {
+    background: #909195; }
+
+  .color_10 {
+    background: #58585a; }
+
+  .color_11 {
+    background: #786092;
+  }
+
+  .color_12 {
+    background: #62472d; }
+
+  .color_13 {
+    background: #d56326; }
+
+  .color_14 {
+    background: #000000; }
+
+  .color_15 {
+    background: #c72424; }
+
+  .color_16 {
+    background: #e00086; }
+
+  .color_17 {
+    background: #54988c; }
+
+  .color_18 {
+    background: #468146; }
+
+  .color_19 {
+    background: #263e32; }
+
+  .color_20 {
+    background: #874997; }
+
+    .preview_front, .preview_back, .preview_front_arquero, .preview_back_arquero, .preview_content_short_content, .preview_content_short_arquero_content, .preview_content_medias_content {
+        height: 530px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        /* padding: 5px; */
+        float: left;
+        display:  flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        position: relative; }
+
+        @media (max-width: 767px) {
+          .preview_front, .preview_back, .preview_front_arquero, .preview_back_arquero, .preview_content_short_content, .preview_content_short_arquero_content, .preview_content_medias_content {
+            height: 275px !important;
+            padding-top: 100px !important;
+            padding-bottom: 70px !important;
+            /* padding: 5px; */
+            float: none;
+            display:  flex;
+            justify-content: center;
+            width: 100%;
+            align-items: center;
+            position: relative;
+          }
+
+          .img_base {
+            max-height: 300px;
+            max-width: 250px !important;
+          }
+          
+          .img_principal {
+            max-height: 300px;
+            max-width: 250px !important;
+          }
+
+          .img_logo {
+            max-height: 300px;
+            max-width: 250px !important;
+          }
+          
+          .img_secundaria {
+            max-height: 300px;
+            max-width: 250px !important;
+          }
+        
+          .img_base_short {
+            max-height: 300px;
+            max-width: 250px !important;
+          }
+
+          .img_medias {
+            max-height: 300px;
+            max-width: 250px !important;
+          }
+          
+          .img_principal_short {
+            max-height: 300px;
+            max-width: 250px !important;
+          }
+          
+          .img_secundaria_short {
+            max-height: 300px;
+            max-width: 250px !important;
+          }
+        
+          .img_base_short_arquero {
+            max-height: 300px;
+            max-width: 250px !important;
+          }
+          
+          .img_principal_short_arquero {
+            max-height: 300px;
+            max-width: 250px !important;
+          }
+          
+          .img_secundaria_short_arquero {
+            max-height: 300px;
+            max-width: 250px !important;
+          }
+
+          .img_numero{
+            max-height: 300px;
+            max-width: 250px !important;
+          }
+
+          .switch_text {
+            font-size: 8px;
+          }
+        }
+
+#options_colores {
+  text-align: center;
+}
+
+#options_colores_short {
+  text-align: center;
+}
+
+#options_colores_short_arquero {
+  text-align: center;
+}
+
+#options_colores_medias {
+  text-align: center;
+}
+
+#options_texto {
+  text-align: center;
+}
+
+.sel_formato {
+  padding: 10px;
+  background: #f6f6f6;
+  border-radius: 4px;
+  border: 1px solid #999999;
+}
+
+.sel_formato:hover{
+  border: 1px solid #ff5b1e;
+}
+
+.selected{
+  border: 1px solid #ff5b1e !important;
+}
+
+.sel_diseno, .sel_diseno_arquero, .sel_diseno_short, .sel_diseno_short_arquero {
+  list-style-type: none;
+  width: 89px;
+  height: 92px;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  float: left;
+  margin: 0 5px 5px 0;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  text-align: center;
+  font-size: 0px;
+  padding-bottom: 13px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.transparente {
+  opacity: 0.5;
+}

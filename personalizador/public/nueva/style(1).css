@@ -1,0 +1,112 @@
+/*
+
+Theme Name: Uncode Child
+
+Description: Child theme for Uncode theme
+
+Author: Undsgn™
+
+Author URI: http://www.undsgn.com
+
+Template: uncode
+
+Version: 1.0.0
+
+Text Domain: uncode
+
+*/
+
+
+
+.woocommerce span.soldout{
+	background-color:  #262729 !important;
+}
+
+.uncode_text_column.text-color-xsdn-color h5,
+.style-light a i{
+	color: #FFF !important;
+}
+
+.window-scrolled .footer-scroll-top{
+
+	bottom: 95px !important;
+
+}
+
+.sku_wrapper.detail-container{
+	display: none;
+}
+
+@media (min-width: 768px){
+body.product-template-default .woocommerce-product-gallery__image:last-of-type{
+		display: none;
+	}
+}
+.hmenu-center-split .logo-container{
+	padding: 18px !important;
+}
+body.archive .logo-image{
+	height: 20px !important;
+}
+body.product-template-default .logo-image{
+	height: 20px !important;
+}
+
+@media (max-width: 569px) {
+	.wpb_raw_html .quick-view-container{
+		top: 25% !important;    
+		max-height: 435px !important;
+	}
+	.woocommerce-product-gallery__image:last-of-type{
+		display: block;
+	}
+}
+
+div.wpb_wrapper div.show-unmodal-with-animation{
+	max-width: 33rem;
+	max-height: 24rem;
+}
+img.wp-image-86596{
+	max-height: 28rem;
+}
+
+footer.site-footer li.menu-item a{
+	color:  #fff !important
+}
+footer.site-footer li.menu-item a:hover{
+	color: #fe5000 !important
+}
+ul#menu-mujer li#menu-item-85112 > a{
+	font-weight: bolder;
+}
+ul#menu-hombre li#menu-item-85124 > a{
+	font-weight: bolder;
+}
+li#menu-item-85134 > a{
+	font-weight: bolder;
+}
+li#menu-item-85140 > a{
+	font-weight: bolder;
+}
+li#menu-item-85147 > a{
+	font-weight: bolder;
+}
+li#menu-item-85148 > a{
+	font-weight: bolder;
+}
+
+footer.site-footer div.vc_row div.row-parent{
+	background-color: rgba(51,63,72, 0.2) !important;
+}
+/*footer.site-footer div#row-unique-12 div.row-parent{
+	padding: 0 !important;
+}*/
+
+footer.site-footer div.uncont div.row-internal{
+	padding: 1em !important;
+}
+footer.site-footer div.uncont div.uncode-single-media{
+	padding: 1em;
+}
+
+

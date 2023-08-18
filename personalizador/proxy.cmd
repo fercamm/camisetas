@@ -1,0 +1,1 @@
+git config  --add remote.origin.proxy ""

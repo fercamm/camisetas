@@ -1,0 +1,1660 @@
+/* RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+:focus {
+  outline: 0; }
+
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none; }
+
+a:active {
+  text-decoration: none; }
+
+/* VARIABLES COLORES */
+/* FORMATOS DE TEXTO DISPONIBLES */
+body {
+  font-family: 'Roboto', sans-serif;
+  /*background: transparent url("../img/back.jpg") repeat;*/
+  min-height: 900px;
+  margin-bottom: 50px; }
+
+.mobile {
+  display: none; }
+
+/* HEADER */
+
+/* DISENADOR */
+#disenador {
+  width: 1116px;
+  height: 700px;
+  padding: 27px;
+  margin: auto;
+  background: #ffffff; }
+
+/* CONTENT TOP */
+#content_top {
+  height: 98px; }
+  #content_top p {
+    margin-top: 9px;
+    font-size: 17px; }
+    #content_top p span {
+      font-weight: bold; }
+
+h1 {
+  text-transform: uppercase;
+  font-size: 34px; }
+
+.img_base {
+  z-index: 1;
+  position: absolute; }
+
+.img_principal {
+  z-index: 2;
+  position: absolute; }
+
+.img_secundaria {
+  z-index: 3;
+  position: absolute; }
+
+.img_medias {
+  float: left; }
+
+/* CONTENT CENTER */
+#content_center {
+  display: inline-block;
+  height: auto;
+  margin-bottom: 10px; }
+  #content_center #preview {
+    float: left; }
+    #content_center #preview #switch_si_no_arquero {
+      display: none; }
+    #content_center #preview .header_switch {
+      height: 59px;
+      background: #f2f1f1; }
+      #content_center #preview .header_switch .txt {
+        font-weight: bold;
+        padding: 0 16px 0 20px;
+        font-size: 14px;
+        display: inline-block;
+        margin-top: 23px;
+        float: left; }
+      #content_center #preview .header_switch .onoffswitch {
+        position: relative;
+        width: 68px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        float: left;
+        top: 14px; }
+      #content_center #preview .header_switch .onoffswitch-checkbox {
+        display: none; }
+      #content_center #preview .header_switch .onoffswitch-label {
+        display: block;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 20px; }
+      #content_center #preview .header_switch .onoffswitch-inner {
+        display: block;
+        width: 200%;
+        margin-left: -100%;
+        transition: margin 0.3s ease-in 0s; }
+      #content_center #preview .header_switch .onoffswitch-inner:before, #content_center #preview .header_switch .onoffswitch-inner:after {
+        display: block;
+        float: left;
+        width: 50%;
+        height: 30px;
+        padding: 0;
+        line-height: 30px;
+        font-size: 14px;
+        color: white;
+        font-family: Trebuchet, Arial, sans-serif;
+        font-weight: bold;
+        box-sizing: border-box; }
+      #content_center #preview .header_switch .onoffswitch-inner:before {
+        content: "SI";
+        padding-left: 10px;
+        background-color: #6CB38A;
+        color: #FFFFFF; }
+      #content_center #preview .header_switch .onoffswitch-inner:after {
+        content: "NO";
+        padding-right: 10px;
+        background-color: #bbbaba;
+        color: #ffffff;
+        text-align: right; }
+      #content_center #preview .header_switch .onoffswitch-switch {
+        display: block;
+        width: 20px;
+        margin: 5px;
+        background: #FFFFFF;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 34px;
+        border: 2px solid #ffffff;
+        border-radius: 20px;
+        transition: all 0.3s ease-in 0s; }
+      #content_center #preview .header_switch .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+        margin-left: 0; }
+      #content_center #preview .header_switch .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+        right: 0px; }
+    #content_center #preview .preview_content {
+      min-width: 738px;
+      height: 499px;
+      padding-top: 0;
+      border: 1px solid #cccccc; }
+      #content_center #preview .preview_content hr {
+        width: 1px;
+        height: 400px;
+        margin-top: 3%;
+        float: left;
+        border: 1px dashed #cccccc;
+        border-top: none;
+        border-left: none;
+        border-bottom: none; }
+    #content_center #preview .preview_content_arquero hr {
+      width: 1px;
+      height: 400px;
+      margin-top: 3%;
+      float: left;
+      border: 1px dashed #cccccc;
+      border-top: none;
+      border-left: none;
+      border-bottom: none; }
+    #content_center #preview .preview_content_arquero {
+      min-width: 738px;
+      height: 499px;
+      padding-top: 0;
+      border: 1px solid #cccccc; }
+      #content_center #preview .preview_content_arquero, #content_center #preview .preview_content_arquero {
+        display: none;
+        opacity: 1; }
+    #content_center #preview .preview_content_short, #content_center #preview .preview_content_short_arquero, #content_center #preview .preview_content_medias {
+      min-width: 738px;
+      height: 499px;
+      border: 1px solid #cccccc;
+      display: none; }
+      #content_center #preview .preview_content_short .preview_content_short_content, #content_center #preview .preview_content_medias .preview_content_short_content, #content_center #preview .preview_content_short_arquero .preview_content_short_arquero_content, #content_center #preview .preview_content_medias .preview_content_short_arquero_content {
+        width: 345px;
+        margin: auto;
+        opacity: 0.4; }
+      #content_center #preview .preview_content_short .preview_content_short_arquero .preview_content_medias_content, #content_center #preview .preview_content_medias .preview_content_medias_content {
+        width: 700px;
+        opacity: 0.4; }
+    #content_center #preview nav ul li {
+      width: 143px;
+      height: 32px;
+      margin-right: 5px;
+      padding-top: 6px;
+      z-index: 9999; }
+      #content_center #preview nav ul li span {
+        float: right;
+        width: 60%;
+        font-size: 12px;
+        text-align: left; }
+      #content_center #preview nav ul li .img_jugador, #content_center #preview nav ul li .img_arquero_over, #content_center #preview nav ul li .img_short_over, #content_center #preview nav ul li .img_short_over_arquero, #content_center #preview nav ul li .img_media_over {
+        display: none; }
+    #content_center #preview #btn_modelo_short span, #content_center #preview #btn_modelo_media span {
+      position: relative;
+      top: 6px; }
+  #content_center .preview_front, #content_center .preview_back {
+    float: left;
+    padding: 5px;
+    width: 357px;
+    height: 430px;
+    position: relative; }
+  #content_center .preview_front img, #content_center .preview_back img {
+    position: absolute; }
+  #content_center .numero_back {
+    font-size: 105px;
+    top: 29%;
+    left: 32%; }
+  #content_center #settings, #content_center #settings_arquero, #content_center #settings_shorts, #content_center #settings_shorts_arquero, #content_center #settings_medias {
+    float: left;
+    width: 328px;
+    margin-left: 18px; }
+  #content_center #settings .overlay {
+    display: none; }
+    #content_center #settings_arquero, #content_center #settings_shorts, #content_center #settings_shorts_arquero, #content_center #settings_medias {
+    display: none; }
+  #content_center nav {
+    height: 40px;
+    margin-left: 10px; }
+    #content_center nav ul li {
+      text-transform: uppercase;
+      float: left;
+      margin-right: 18px;
+      cursor: pointer; }
+
+/* OPTIONS */
+.options {
+  border: 1px solid #cccccc;
+  padding: 24px 20px;
+  height: 451px;
+  display: inline-block;
+  width: 323px;
+  position: relative; }
+  .options .new_models_ads {
+    text-align: center; }
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.55);
+  z-index: 99; }
+
+#options_diseno, #options_diseno_arquero, #options_diseno_short, #options_diseno_short_arquero, #options_colores, #options_colores_arquero, #options_colores_short, #options_colores_short_arquero, #options_texto, #options_texto_arquero {
+  width: 100%; }
+
+.option_disable, .option_disable_short, .option_disable_short_arquero, .option_select, .option_select_short, .option_select_short_arquero, .option_select_medias {
+  height: 25px;
+  text-align: center;
+  padding-top: 13px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative; }
+
+.option_disable, .option_disable_short, .option_disable_short_arquero {
+  background: #ebebeb;
+  color: #b6b6b6;
+  width: 86px;
+  top: 2px; }
+
+.option_select, .option_select_short, .option_select_short_arquero, .option_select_medias {
+  border: 1px solid #cccccc;
+  border-bottom: 1px solid #fff;
+  width: 84px;
+  top: 1px;
+  color: #c81705; }
+
+/* OPTIONS */
+/* DISENO */
+#options_diseno {
+  width: 337px;
+  margin-top: 20px; }
+  #options_diseno .sel_diseno_page_2, #options_diseno .sel_diseno_page_3, #options_diseno .sel_diseno_page_4, #options_diseno_arquero .sel_diseno_page_arquero_2, #options_diseno_arquero .sel_diseno_page_arquero_3, #options_diseno_arquero .sel_diseno_page_arquero_4 {
+    display: none; }
+  #options_diseno li {
+    width: 94px;
+    float: left;
+    border: 2px solid #959595;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    text-align: center;
+    padding: 2px;
+    margin: 0 8px 28px 0;
+    cursor: pointer; }
+    #options_diseno li img {
+      max-width: 74px;
+      max-height: 86px; }
+
+#options_diseno_arquero {
+  width: 337px;
+  margin-top: 20px; }
+  #options_diseno_arquero .sel_diseno_page_2, #options_diseno_arquero .sel_diseno_page_3, #options_diseno_arquero .sel_diseno_page_4 {
+    display: none; }
+  #options_diseno_arquero li {
+    width: 94px;
+    float: left;
+    border: 2px solid #959595;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    text-align: center;
+    padding: 2px;
+    margin: 0 8px 28px 0;
+    cursor: pointer; }
+    #options_diseno_arquero li img {
+      max-width: 74px;
+      max-height: 86px; }
+
+#options_diseno_short {
+  width: 337px;
+  margin-top: 20px; }
+  #options_diseno_short li {
+    width: 94px;
+    float: left;
+    border: 2px solid #959595;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    text-align: center;
+    padding: 2px;
+    margin: 0 8px 8px 0;
+    cursor: pointer; }
+    #options_diseno_short li img {
+      max-width: 74px;
+      max-height: 86px; }
+
+#options_diseno_short_arquero {
+  width: 337px;
+  margin-top: 20px; }
+  #options_diseno_short_arquero li {
+    width: 94px;
+    float: left;
+    border: 2px solid #959595;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    text-align: center;
+    padding: 2px;
+    margin: 0 8px 8px 0;
+    cursor: pointer; }
+    #options_doptions_diseno_short_arqueroiseno_short li img {
+      max-width: 74px;
+      max-height: 86px; }
+
+#paginador_diseno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; }
+  #paginador_diseno span {
+    cursor: pointer;
+    margin: 0 !important;
+    width: 25px;
+    padding-top: 5px;
+    height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px; }
+  #paginador_diseno #btn_pg_prev, #paginador_diseno_arquero #btn_pg_prev_arquero, #paginador_diseno #btn_pg_next {
+    font-size: 12px;
+    text-transform: none;
+    width: 80px; }
+  #paginador_diseno .selected_page {
+    color: #ffffff;
+    background: #d93d3d; }
+
+#paginador_diseno_arquero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; }
+  #paginador_diseno_arquero span {
+    cursor: pointer;
+    margin: 0 !important;
+    width: 25px;
+    padding-top: 5px;
+    height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px; }
+  #paginador_diseno_arquero #btn_pg_prev, #paginador_diseno_arquero #btn_pg_next {
+    font-size: 12px;
+    text-transform: none;
+    width: 80px; }
+  #paginador_diseno_arquero .selected_page {
+    color: #ffffff;
+    background: #d93d3d; }
+
+#paginador_diseno_arquero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; }
+  #paginador_diseno_arquero span {
+    cursor: pointer;
+    margin: 0 !important;
+    width: 25px;
+    padding-top: 5px;
+    height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px; }
+  #paginador_diseno_arquero #btn_pg_prev_arquero, #paginador_diseno_arquero #btn_pg_next_arquero {
+    font-size: 12px;
+    text-transform: none;
+    width: 80px; }
+  #paginador_diseno_arquero .selected_page {
+    color: #ffffff;
+    background: #d93d3d; }
+
+/* OPTIONS */
+/* COLORES */
+#options_colores {
+  display: none; }
+  #options_colores #color_secundario_box, #color_secundario_box_arquero {
+    display: none; }
+
+#options_colores_short, #options_colores_short_arquero, #color_secundario_box_short, #color_secundario_box_short_arquero {
+  display: none; }
+
+#options_colores_arquero {
+  display: none; }
+  #options_colores_arquero #color_secundario_box, #color_secundario_box_arquero {
+    display: none; }
+
+.colores_list {
+  width: 310px;
+  margin-bottom: 11px;
+  display: inline-block; }
+
+.colores_list li {
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  cursor: pointer; }
+
+.colores_list li.border_si {
+  border: 1px solid #c2c2c2;
+  width: 22px;
+  height: 22px; }
+
+.options span {
+  display: block;
+  margin: 18px 0 13px 0;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.sin_nombre input, .sin_nombre label {
+  float: left; }
+
+.sin_nombre label {
+  margin: 1px 0 0 5px !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer; }
+
+/* DEFINICION DE COLORES */
+/* CAMISETAS */
+#color_base_1, #color_principal_1, #color_secundario_1, #color_text_1 {
+  background: #dacd4a;
+  border: 1px solid #c2c2c2;
+  width: 22px !important;
+  height: 22px !important; }
+
+#color_base_2, #color_principal_2, #color_secundario_2, #color_text_2 {
+  background: #293e7a; }
+
+#color_base_3, #color_principal_3, #color_secundario_3, #color_text_3 {
+  background: #1e263f; }
+
+#color_base_4, #color_principal_4, #color_secundario_4, #color_text_4 {
+  background: #ffffff; }
+
+#color_base_5, #color_principal_5, #color_secundario_5, #color_text_5 {
+  background: #6d0b1c; }
+
+#color_base_6, #color_principal_6, #color_secundario_6, #color_text_6 {
+  background: #6b96a6; }
+
+#color_base_7, #color_principal_7, #color_secundario_7, #color_text_7 {
+  background: #4d8fcc; }
+
+#color_base_8, #color_principal_8, #color_secundario_8, #color_text_8 {
+  background: #f392cc; }
+
+#color_base_9, #color_principal_9, #color_secundario_9, #color_text_9 {
+  background: #909195; }
+
+#color_base_10, #color_principal_10, #color_secundario_10, #color_text_10 {
+  background: #58585a; }
+
+#color_base_11, #color_principal_11, #color_secundario_11, #color_text_11 {
+  background: #786092;
+  border: 1px solid #c2c2c2;
+  width: 22px !important;
+  height: 22px !important; }
+
+#color_base_12, #color_principal_12, #color_secundario_12, #color_text_12 {
+  background: #62472d; }
+
+#color_base_13, #color_principal_13, #color_secundario_13, #color_text_13 {
+  background: #d56326; }
+
+#color_base_14, #color_principal_14, #color_secundario_14, #color_text_14 {
+  background: #000000; }
+
+#color_base_15, #color_principal_15, #color_secundario_15, #color_text_15 {
+  background: #c72424; }
+
+#color_base_16, #color_principal_16, #color_secundario_16, #color_text_16 {
+  background: #e00086; }
+
+#color_base_17, #color_principal_17, #color_secundario_17, #color_text_17 {
+  background: #54988c; }
+
+#color_base_18, #color_principal_18, #color_secundario_18, #color_text_18 {
+  background: #468146; }
+
+#color_base_19, #color_principal_19, #color_secundario_19, #color_text_19 {
+  background: #263e32; }
+
+#color_base_20, #color_principal_20, #color_secundario_20, #color_text_20 {
+  background: #874997; }
+
+/* CAMISETAS MOBILE */
+#color_base_mb_1, #color_principal_mb_1, #color_secundario_mb_1, #color_text_mb_1 {
+  background: #dacd4a; }
+
+#color_base_mb_2, #color_principal_mb_2, #color_secundario_mb_2, #color_text_mb_2 {
+  background: #293e7a; }
+
+#color_base_mb_3, #color_principal_mb_3, #color_secundario_mb_3, #color_text_mb_3 {
+  background: #1e263f; }
+
+#color_base_mb_4, #color_principal_mb_4, #color_secundario_mb_4, #color_text_mb_4 {
+  background: #ffffff; }
+
+#color_base_mb_5, #color_principal_mb_5, #color_secundario_mb_5, #color_text_mb_5 {
+  background: #6d0b1c; }
+
+#color_base_mb_6, #color_principal_mb_6, #color_secundario_mb_6, #color_text_mb_6 {
+  background: #6b96a6; }
+
+#color_base_mb_7, #color_principal_mb_7, #color_secundario_mb_7, #color_text_mb_7 {
+  background: #4d8fcc; }
+
+#color_base_mb_8, #color_principal_mb_8, #color_secundario_mb_8, #color_text_mb_8 {
+  background: #f392cc; }
+
+#color_base_mb_9, #color_principal_mb_9, #color_secundario_mb_9, #color_text_mb_9 {
+  background: #909195; }
+
+#color_base_mb_10, #color_principal_mb_10, #color_secundario_mb_10, #color_text_mb_10 {
+  background: #58585a; }
+
+#color_base_mb_11, #color_principal_mb_11, #color_secundario_mb_11, #color_text_mb_11 {
+  background: #786092; }
+
+#color_base_mb_12, #color_principal_mb_12, #color_secundario_mb_12, #color_text_mb_12 {
+  background: #62472d; }
+
+#color_base_mb_13, #color_principal_mb_13, #color_secundario_mb_13, #color_text_mb_13 {
+  background: #d56326; }
+
+#color_base_mb_14, #color_principal_mb_14, #color_secundario_mb_14, #color_text_mb_14 {
+  background: #000000; }
+
+#color_base_mb_15, #color_principal_mb_15, #color_secundario_mb_15, #color_text_mb_15 {
+  background: #c72424; }
+
+#color_base_mb_16, #color_principal_mb_16, #color_secundario_mb_16, #color_text_mb_16 {
+  background: #e00086; }
+
+#color_base_mb_17, #color_principal_mb_17, #color_secundario_mb_17, #color_text_mb_17 {
+  background: #54988c; }
+
+#color_base_mb_18, #color_principal_mb_18, #color_secundario_mb_18, #color_text_mb_18 {
+  background: #468146; }
+
+#color_base_mb_19, #color_principal_mb_19, #color_secundario_mb_19, #color_text_mb_19 {
+  background: #263e32; }
+
+#color_base_mb_20, #color_principal_mb_20, #color_secundario_mb_20, #color_text_mb_20 {
+  background: #874997; }
+
+/* CAMISETAS ARQUERO */
+#color_base_arquero_1, #color_principal_arquero_1, #color_secundario_arquero_1, #color_text_arquero_1 {
+  background: #dacd4a;
+  border: 1px solid #c2c2c2;
+  width: 22px !important;
+  height: 22px !important; }
+
+#color_base_arquero_2, #color_principal_arquero_2, #color_secundario_arquero_2, #color_text_arquero_2 {
+  background: #293e7a; }
+
+#color_base_arquero_3, #color_principal_arquero_3, #color_secundario_arquero_3, #color_text_arquero_3 {
+  background: #1e263f; }
+
+#color_base_arquero_4, #color_principal_arquero_4, #color_secundario_arquero_4, #color_text_arquero_4 {
+  background: #ffffff; }
+
+#color_base_arquero_5, #color_principal_arquero_5, #color_secundario_arquero_5, #color_text_arquero_5 {
+  background: #6d0b1c; }
+
+#color_base_arquero_6, #color_principal_arquero_6, #color_secundario_arquero_6, #color_text_arquero_6 {
+  background: #6b96a6; }
+
+#color_base_arquero_7, #color_principal_arquero_7, #color_secundario_arquero_7, #color_text_arquero_7 {
+  background: #4d8fcc; }
+
+#color_base_arquero_8, #color_principal_arquero_8, #color_secundario_arquero_8, #color_text_arquero_8 {
+  background: #f392cc; }
+
+#color_base_arquero_9, #color_principal_arquero_9, #color_secundario_arquero_9, #color_text_arquero_9 {
+  background: #909195; }
+
+#color_base_arquero_10, #color_principal_arquero_10, #color_secundario_arquero_10, #color_text_arquero_10 {
+  background: #58585a; }
+
+#color_base_arquero_11, #color_principal_arquero_11, #color_secundario_arquero_11, #color_text_arquero_11 {
+  background: #786092;
+  border: 1px solid #c2c2c2;
+  width: 22px !important;
+  height: 22px !important; }
+
+#color_base_arquero_12, #color_principal_arquero_12, #color_secundario_arquero_12, #color_text_arquero_12 {
+  background: #62472d; }
+
+#color_base_arquero_13, #color_principal_arquero_13, #color_secundario_arquero_13, #color_text_arquero_13 {
+  background: #d56326; }
+
+#color_base_arquero_14, #color_principal_arquero_14, #color_secundario_arquero_14, #color_text_arquero_14 {
+  background: #000000; }
+
+#color_base_arquero_15, #color_principal_arquero_15, #color_secundario_arquero_15, #color_text_arquero_15 {
+  background: #c72424; }
+
+#color_base_arquero_16, #color_principal_arquero_16, #color_secundario_arquero_16, #color_text_arquero_16 {
+  background: #e00086; }
+
+#color_base_arquero_17, #color_principal_arquero_17, #color_secundario_arquero_17, #color_text_arquero_17 {
+  background: #54988c; }
+
+#color_base_arquero_18, #color_principal_arquero_18, #color_secundario_arquero_18, #color_text_arquero_18 {
+  background: #468146; }
+
+#color_base_arquero_19, #color_principal_arquero_19, #color_secundario_arquero_19, #color_text_arquero_19 {
+  background: #263e32; }
+
+#color_base_arquero_20, #color_principal_arquero_20, #color_secundario_arquero_20, #color_text_arquero_20 {
+  background: #874997; }
+
+/* CAMISETAS ARQUERO MOBILE */
+#color_base_arquero_mb_1, #color_principal_arquero_mb_1, #color_secundario_arquero_mb_1, #color_text_arquero_mb_1 {
+  background: #dacd4a; }
+
+#color_base_arquero_mb_2, #color_principal_arquero_mb_2, #color_secundario_arquero_mb_2, #color_text_arquero_mb_2 {
+  background: #293e7a; }
+
+#color_base_arquero_mb_3, #color_principal_arquero_mb_3, #color_secundario_arquero_mb_3, #color_text_arquero_mb_3 {
+  background: #1e263f; }
+
+#color_base_arquero_mb_4, #color_principal_arquero_mb_4, #color_secundario_arquero_mb_4, #color_text_arquero_mb_4 {
+  background: #ffffff; }
+
+#color_base_arquero_mb_5, #color_principal_arquero_mb_5, #color_secundario_arquero_mb_5, #color_text_arquero_mb_5 {
+  background: #6d0b1c; }
+
+#color_base_arquero_mb_6, #color_principal_arquero_mb_6, #color_secundario_arquero_mb_6, #color_text_arquero_mb_6 {
+  background: #6b96a6; }
+
+#color_base_arquero_mb_7, #color_principal_arquero_mb_7, #color_secundario_arquero_mb_7, #color_text_arquero_mb_7 {
+  background: #4d8fcc; }
+
+#color_base_arquero_mb_8, #color_principal_arquero_mb_8, #color_secundario_arquero_mb_8, #color_text_arquero_mb_8 {
+  background: #f392cc; }
+
+#color_base_arquero_mb_9, #color_principal_arquero_mb_9, #color_secundario_arquero_mb_9, #color_text_arquero_mb_9 {
+  background: #909195; }
+
+#color_base_arquero_mb_10, #color_principal_arquero_mb_10, #color_secundario_arquero_mb_10, #color_text_arquero_mb_10 {
+  background: #58585a; }
+
+#color_base_arquero_mb_11, #color_principal_arquero_mb_11, #color_secundario_arquero_mb_11, #color_text_arquero_mb_11 {
+  background: #786092; }
+
+#color_base_arquero_mb_12, #color_principal_arquero_mb_12, #color_secundario_arquero_mb_12, #color_text_arquero_mb_12 {
+  background: #62472d; }
+
+#color_base_arquero_mb_13, #color_principal_arquero_mb_13, #color_secundario_arquero_mb_13, #color_text_arquero_mb_13 {
+  background: #d56326; }
+
+#color_base_arquero_mb_14, #color_principal_arquero_mb_14, #color_secundario_arquero_mb_14, #color_text_arquero_mb_14 {
+  background: #000000; }
+
+#color_base_arquero_mb_15, #color_principal_arquero_mb_15, #color_secundario_arquero_mb_15, #color_text_arquero_mb_15 {
+  background: #c72424; }
+
+#color_base_arquero_mb_16, #color_principal_arquero_mb_16, #color_secundario_arquero_mb_16, #color_text_arquero_mb_16 {
+  background: #e00086; }
+
+#color_base_arquero_mb_17, #color_principal_arquero_mb_17, #color_secundario_arquero_mb_17, #color_text_arquero_mb_17 {
+  background: #54988c; }
+
+#color_base_arquero_mb_18, #color_principal_arquero_mb_18, #color_secundario_arquero_mb_18, #color_text_arquero_mb_18 {
+  background: #468146; }
+
+#color_base_arquero_mb_19, #color_principal_arquero_mb_19, #color_secundario_arquero_mb_19, #color_text_arquero_mb_19 {
+  background: #263e32; }
+
+#color_base_arquero_mb_20, #color_principal_arquero_mb_20, #color_secundario_arquero_mb_20, #color_text_arquero_mb_20 {
+  background: #874997; }
+
+/* SHORTS */
+#color_base_short_1, #color_principal_short_1, #color_secundario_short_1, #color_base_short_arquero_1, #color_principal_short_arquero_1, #color_secundario_short_arquero_1{
+  background: #dacd4a;
+  border: 1px solid #c2c2c2;
+  width: 22px !important;
+  height: 22px !important; }
+
+#color_base_short_2, #color_principal_short_2, #color_secundario_short_2, #color_base_short_arquero_2, #color_principal_short_arquero_2, #color_secundario_short_arquero_2{
+  background: #293e7a; }
+
+#color_base_short_3, #color_principal_short_3, #color_secundario_short_3, #color_base_short_arquero_3, #color_principal_short_arquero_3, #color_secundario_short_arquero_3{
+  background: #1e263f; }
+
+#color_base_short_4, #color_principal_short_4, #color_secundario_short_4, #color_base_short_arquero_4, #color_principal_short_arquero_4, #color_secundario_short_arquero_4{
+  background: #ffffff; }
+
+#color_base_short_5, #color_principal_short_5, #color_secundario_short_5, #color_base_short_arquero_5, #color_principal_short_arquero_5, #color_secundario_short_arquero_5{
+  background: #6d0b1c; }
+
+#color_base_short_6, #color_principal_short_6, #color_secundario_short_6, #color_base_short_arquero_6, #color_principal_short_arquero_6, #color_secundario_short_arquero_6{
+  background: #6b96a6; }
+
+#color_base_short_7, #color_principal_short_7, #color_secundario_short_7, #color_base_short_arquero_7, #color_principal_short_arquero_7, #color_secundario_short_arquero_7{
+  background: #4d8fcc; }
+
+#color_base_short_8, #color_principal_short_8, #color_secundario_short_8, #color_base_short_arquero_8, #color_principal_short_arquero_8, #color_secundario_short_arquero_8{
+  background: #f392cc; }
+
+#color_base_short_9, #color_principal_short_9, #color_secundario_short_9, #color_base_short_arquero_9, #color_principal_short_arquero_9, #color_secundario_short_arquero_9{
+  background: #909195; }
+
+#color_base_short_10, #color_principal_short_10, #color_secundario_short_10, #color_base_short_arquero_10, #color_principal_short_arquero_10, #color_secundario_short_arquero_10{
+  background: #58585a; }
+
+#color_base_short_11, #color_principal_short_11, #color_secundario_short_11, #color_base_short_arquero_11, #color_principal_short_arquero_11, #color_secundario_short_arquero_11{
+  background: #786092;
+  border: 1px solid #c2c2c2;
+  width: 22px !important;
+  height: 22px !important; }
+
+#color_base_short_12, #color_principal_short_12, #color_secundario_short_12, #color_base_short_arquero_12, #color_principal_short_arquero_12, #color_secundario_short_arquero_12{
+  background: #62472d; }
+
+#color_base_short_13, #color_principal_short_13, #color_secundario_short_13, #color_base_short_arquero_13, #color_principal_short_arquero_13, #color_secundario_short_arquero_13{
+  background: #d56326; }
+
+#color_base_short_14, #color_principal_short_14, #color_secundario_short_14, #color_base_short_arquero_14, #color_principal_short_arquero_14, #color_secundario_short_arquero_14{
+  background: #000000; }
+
+#color_base_short_15, #color_principal_short_15, #color_secundario_short_15, #color_base_short_arquero_15, #color_principal_short_arquero_15, #color_secundario_short_arquero_15{
+  background: #c72424; }
+
+#color_base_short_16, #color_principal_short_16, #color_secundario_short_16, #color_base_short_arquero_16, #color_principal_short_arquero_16, #color_secundario_short_arquero_16{
+  background: #e00086; }
+
+#color_base_short_17, #color_principal_short_17, #color_secundario_short_17, #color_base_short_arquero_17, #color_principal_short_arquero_17, #color_secundario_short_arquero_17{
+  background: #54988c; }
+
+#color_base_short_18, #color_principal_short_18, #color_secundario_short_18, #color_base_short_arquero_18, #color_principal_short_arquero_18, #color_secundario_short_arquero_18{  
+  background: #468146; }
+
+#color_base_short_19, #color_principal_short_19, #color_secundario_short_19, #color_base_short_arquero_19, #color_principal_short_arquero_19, #color_secundario_short_arquero_19{
+  background: #263e32; }
+
+#color_base_short_20, #color_principal_short_20, #color_secundario_short_20, #color_base_short_arquero_20, #color_principal_short_arquero_20, #color_secundario_short_arquero_20{
+  background: #874997; }
+
+/* MEDIAS */
+#color_medias_1 {
+  background: #dacd4a;
+  border: 1px solid #c2c2c2;
+  width: 22px !important;
+  height: 22px !important; }
+
+#color_medias_2 {
+  background: #293e7a; }
+
+#color_medias_4 {
+  background: #ffffff; }
+
+#color_medias_5 {
+  background: #6d0b1c; }
+
+#color_medias_7 {
+  background: #4d8fcc; }
+
+#color_medias_10 {
+  background: #58585a; }
+
+#color_medias_12 {
+  background: #62472d; }
+
+#color_medias_13 {
+  background: #d56326; }
+
+#color_medias_14 {
+  background: #000000; }
+
+#color_medias_15 {
+  background: #c72424; }
+
+#color_medias_17 {
+  background: #54988c; }
+
+#color_medias_19 {
+  background: #263e32; }
+
+#color_medias_20 {
+  background: #874997; }
+
+/* MOBILE */
+/* SHORTS MOBILE */
+#color_base_short_mb_1, #color_principal_short_mb_1, #color_secundario_short_mb_1 {
+  background: #dacd4a; }
+
+#color_base_short_mb_2, #color_principal_short_mb_2, #color_secundario_short_mb_2 {
+  background: #293e7a; }
+
+#color_base_short_mb_3, #color_principal_short_mb_3, #color_secundario_short_mb_3 {
+  background: #1e263f; }
+
+#color_base_short_mb_4, #color_principal_short_mb_4, #color_secundario_short_mb_4 {
+  background: #ffffff; }
+
+#color_base_short_mb_5, #color_principal_short_mb_5, #color_secundario_short_mb_5 {
+  background: #6d0b1c; }
+
+#color_base_short_mb_6, #color_principal_short_mb_6, #color_secundario_short_mb_6 {
+  background: #6b96a6; }
+
+#color_base_short_mb_7, #color_principal_short_mb_7, #color_secundario_short_mb_7 {
+  background: #4d8fcc; }
+
+#color_base_short_mb_8, #color_principal_short_mb_8, #color_secundario_short_mb_8 {
+  background: #f392cc; }
+
+#color_base_short_mb_9, #color_principal_short_mb_9, #color_secundario_short_mb_9 {
+  background: #909195; }
+
+#color_base_short_mb_10, #color_principal_short_mb_10, #color_secundario_short_mb_10 {
+  background: #58585a; }
+
+#color_base_short_mb_11, #color_principal_short_mb_11, #color_secundario_short_mb_11 {
+  background: #786092; }
+
+#color_base_short_mb_12, #color_principal_short_mb_12, #color_secundario_short_mb_12 {
+  background: #62472d; }
+
+#color_base_short_mb_13, #color_principal_short_mb_13, #color_secundario_short_mb_13 {
+  background: #d56326; }
+
+#color_base_short_mb_14, #color_principal_short_mb_14, #color_secundario_short_mb_14 {
+  background: #000000; }
+
+#color_base_short_mb_15, #color_principal_short_mb_15, #color_secundario_short_mb_15 {
+  background: #c72424; }
+
+#color_base_short_mb_16, #color_principal_short_mb_16, #color_secundario_short_mb_16 {
+  background: #e00086; }
+
+#color_base_short_mb_17, #color_principal_short_mb_17, #color_secundario_short_mb_17 {
+  background: #54988c; }
+
+#color_base_short_mb_18, #color_principal_short_mb_18, #color_secundario_short_mb_18 {
+  background: #468146; }
+
+#color_base_short_mb_19, #color_principal_short_mb_19, #color_secundario_short_mb_19 {
+  background: #263e32; }
+
+#color_base_short_mb_20, #color_principal_short_mb_20, #color_secundario_short_mb_20 {
+  background: #874997; }
+
+/* SHORTS ARQUERO MOBILE */
+#color_base_short_arquero_mb_1, #color_principal_short_arquero_mb_1, #color_secundario_arquero_short_mb_1 {
+  background: #dacd4a; }
+
+#color_base_short_arquero_mb_2, #color_principal_short_arquero_mb_2, #color_secundario_arquero_short_mb_2 {
+  background: #293e7a; }
+
+#color_base_short_arquero_mb_3, #color_principal_short_arquero_mb_3, #color_secundario_short_arquero_mb_3 {
+  background: #1e263f; }
+
+#color_base_short_arquero_mb_4, #color_principal_short_arquero_mb_4, #color_secundario_short_arquero_mb_4 {
+  background: #ffffff; }
+
+#color_base_short_arquero_mb_5, #color_principal_short_arquero_mb_5, #color_secundario_short_arquero_mb_5 {
+  background: #6d0b1c; }
+
+#color_base_short_arquero_mb_6, #color_principal_short_arquero_mb_6, #color_secundario_short_arquero_mb_6 {
+  background: #6b96a6; }
+
+#color_base_short_arquero_mb_7, #color_principal_short_arquero_mb_7, #color_secundario_short_arquero_mb_7 {
+  background: #4d8fcc; }
+
+#color_base_short_arquero_mb_8, #color_principal_short_arquero_mb_8, #color_secundario_short_arquero_mb_8 {
+  background: #f392cc; }
+
+#color_base_short_arquero_mb_9, #color_principal_short_arquero_mb_9, #color_secundario_short_arquero_mb_9 {
+  background: #909195; }
+
+#color_base_short_arquero_mb_10, #color_principal_short_arquero_mb_10, #color_secundario_short_arquero_mb_10 {
+  background: #58585a; }
+
+#color_base_short_arquero_mb_11, #color_principal_short_arquero_mb_11, #color_secundario_short_arquero_mb_11 {
+  background: #786092; }
+
+#color_base_short_arquero_mb_12, #color_principal_short_arquero_mb_12, #color_secundario_short_arquero_mb_12 {
+  background: #62472d; }
+
+#color_base_short_arquero_mb_13, #color_principal_short_arquero_mb_13, #color_secundario_short_arquero_mb_13 {
+  background: #d56326; }
+
+#color_base_short_arquero_mb_14, #color_principal_short_arquero_mb_14, #color_secundario_short_arquero_mb_14 {
+  background: #000000; }
+
+#color_base_short_arquero_mb_15, #color_principal_short_arquero_mb_15, #color_secundario_short_arquero_mb_15 {
+  background: #c72424; }
+
+#color_base_short_arquero_mb_16, #color_principal_short_arquero_mb_16, #color_secundario_short_arquero_mb_16 {
+  background: #e00086; }
+
+#color_base_short_arquero_mb_17, #color_principal_short_arquero_mb_17, #color_secundario_short_arquero_mb_17 {
+  background: #54988c; }
+
+#color_base_short_arquero_mb_18, #color_principal_short_arquero_mb_18, #color_secundario_short_arquero_mb_18 {
+  background: #468146; }
+
+#color_base_short_arquero_mb_19, #color_principal_short_arquero_mb_19, #color_secundario_short_arquero_mb_19 {
+  background: #263e32; }
+
+#color_base_short_arquero_mb_20, #color_principal_short_arquero_mb_20, #color_secundario_short_arquero_mb_20 {
+  background: #874997; }
+
+/* MEDIAS MOBILE */
+#color_medias_mb_1 {
+  background: #dacd4a; }
+
+#color_medias_mb_2 {
+  background: #293e7a; }
+
+#color_medias_mb_4 {
+  background: #ffffff; }
+
+#color_medias_mb_5 {
+  background: #6d0b1c; }
+
+#color_medias_mb_7 {
+  background: #4d8fcc; }
+
+#color_medias_mb_10 {
+  background: #58585a; }
+
+#color_medias_mb_12 {
+  background: #62472d; }
+
+#color_medias_mb_13 {
+  background: #d56326; }
+
+#color_medias_mb_14 {
+  background: #000000; }
+
+#color_medias_mb_15 {
+  background: #c72424; }
+
+#color_medias_mb_17 {
+  background: #54988c; }
+
+#color_medias_mb_19 {
+  background: #263e32; }
+
+#color_medias_mb_20 {
+  background: #874997; }
+
+/* OPTIONS */
+/* TEXTO */
+#options_texto {
+  display: none; }
+
+#options_texto_arquero {
+  display: none; }
+
+.list_box {
+  width: 320px;
+  height: auto;
+  display: inline-block; }
+
+.list_box li {
+  width: 89px;
+  height: 83px;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  float: left;
+  margin: 0 5px 5px 0;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 13px;
+  cursor: pointer;
+  box-sizing: border-box; }
+  .list_box li img {
+    width: 100%; }
+
+.formato_arquero {
+  display: none; }
+
+#formato_1 {
+  font-family: "Arial"; }
+
+#formato_2 {
+  font-family: "Times New Roman"; }
+
+#formato_3 {
+  font-family: "Comic Sans MS"; }
+
+#formato_4 {
+  font-family: "Trebuchet MS"; }
+
+.selected {
+  border: 2px solid #e22c2f !important; }
+
+/* CONTENT FT */
+#content_ft div {
+  float: right;
+}
+
+#content_ft div.footer_precio {
+  float: left;
+  padding: 7px 0;
+
+}
+
+.btn_style_red {
+  width: 364px;
+  background: transparent url("../img/back_btn_confirmar.jpg") repeat-x;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  padding: 12px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 14px; }
+
+.btn_style_red_disabled {
+  width: 364px;
+  background-color: #CCCCCC;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  padding: 12px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 14px; }
+
+.btn_style_white {
+  width: 286px;
+  padding: 15px 0 12px 0;
+  text-align: center;
+  color: #959595;
+  border: 1px solid #959595;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  cursor: pointer; }
+  .btn_style_white span {
+    position: relative;
+    top: -7px; }
+
+#btn_help {
+  padding: 7px 0; }
+
+.formato_nro_back {
+  position: absolute;
+  top: -3%;
+  left: 1%;
+  z-index: 999999; }
+
+/* VISTA MODELOS */
+.vista_modelos {
+  width: 70%;
+  margin-right: 20px;
+  display: inline-block; }
+  .vista_modelos .final_preview_front, .vista_modelos .final_preview_back {
+    width: 158px;
+    height: 195px;
+    float: left;
+    position: relative; }
+  .vista_modelos .final_preview_front img, .vista_modelos .final_preview_back img {
+    width: 100%; }
+  .vista_modelos .final_preview_short .preview_content_short_content {
+    width: 158px;
+    margin: auto; }
+    .vista_modelos .final_preview_short .preview_content_short_content img {
+      max-height: 194px; }
+  .vista_modelos .final_preview_short .preview_content_short_arquero_content {
+    width: 158px;
+    margin: auto; }
+    .vista_modelos .final_preview_short .preview_content_short_arquero_content img {
+      max-height: 194px; }
+  .vista_modelos .preview_content_medias_content {
+    width: 100%; }
+    .vista_modelos .preview_content_medias_content img {
+      max-width: 50%; }
+  .vista_modelos .vista_modelo_contenedor {
+    width: 320px;
+    height: 236px;
+    margin: 0 14px 10px 0;
+    border: 1px solid #d4d4d4;
+    float: left; }
+    .vista_modelos .vista_modelo_contenedor .top_title {
+      height: 23px;
+      margin-bottom: 8px;
+      padding: 6px 0;
+      background: #a6a5a6;
+      color: #ffffff;
+      text-align: center; }
+      .vista_modelos .vista_modelo_contenedor .top_title span {
+        position: relative;
+        top: -6px;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 6px; }
+
+#twitter_btn {
+  margin-left: 10px; }
+
+.vista_modelo_arquero, .vista_modelo_short, .vista_modelo_medias, .vista_modelo_short_mb, .vista_modelo_short_arquero, .vista_modelo_short_arquero_mb {
+  display: none; }
+
+/* FORMULARIO */
+#formulario {
+  display: none;
+  width: 1116px;
+  height: auto;
+  padding: 27px;
+  padding-top: 0px;
+  margin: 50px auto;
+  background: #ffffff; }
+  #formulario .top {
+    height: 60px;
+    margin-bottom: 29px; }
+    #formulario .top h2 {
+      font-size: 34px;
+      text-transform: uppercase;
+      margin-top: 18px; }
+    #formulario .top .slogan {
+      font-size: 21px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 8px;
+      display: block;
+      float: left; }
+    #formulario .top .alert_min {
+      font-size: 15px;
+      color: #afafaf;
+      font-weight: 700;
+      float: left;
+      margin: 8px 0 0 27px; }
+  #formulario .content {
+    display: inline-block;
+    height: auto;
+    padding-bottom: 46px;
+    width: 100%; }
+    #formulario .content .contenedor {
+      width: 100%;
+      height: auto;
+      display: inline-block; }
+      #formulario .content .contenedor .form_fields {
+        width: 47%;
+        margin-left: 70px;
+        margin-top: 33px;
+        font-size: 15px;
+        color: #afafaf;
+        font-weight: 700; }
+        #formulario .content .contenedor .form_fields .divisor_player {
+          width: 600px;
+          margin: 20px 0;
+          border-bottom: none;
+          border-left: none;
+          border-right: none; }
+        #formulario .content .contenedor .form_fields .row {
+          height: 44px;
+          margin-bottom: 9px; }
+          #formulario .content .contenedor .form_fields .row label {
+            float: right;
+            padding-top: 17px;
+            margin-right: 11px; }
+          #formulario .content .contenedor .form_fields .row input[type="text"] {
+            width: 340px;
+            height: 38px;
+            float: right;
+            font-size: 15px;
+            color: #afafaf;
+            padding: 0 5px; }
+          #formulario .content .contenedor .form_fields .row input[type="file"] {
+            width: 340px;
+            height: 38px;
+            float: right;
+            font-size: 15px;
+            color: #afafaf;
+            padding: 0 5px; }
+          #formulario .content .contenedor .form_fields .row select {
+            width: 154px;
+            height: 38px;
+            color: #afafaf;
+            padding: 0 5px;
+            font-size: 15px;
+            margin: 0 5px;
+            float: right;
+          }
+          #formulario .content .contenedor .form_fields .row textarea {
+            width: 340px;
+            height: 88px;
+            float: right;
+            font-size: 15px;
+            color: #afafaf;
+            padding: 0 5px;
+            border: 1px solid #ebebeb;
+            margin-top: 8px; }
+        #formulario .content .contenedor .form_fields .divisor {
+          padding: 15px 0 20px 37px; }
+          #formulario .content .contenedor .form_fields .divisor span {
+            text-transform: uppercase; }
+        #formulario .content .contenedor .form_fields .row_jugador {
+          text-align: right;
+          margin: 0 -22px 6px 0; }
+          #formulario .content .contenedor .form_fields .row_jugador .btn_delete .btn_delete_short .btn_delete_conjunto_jugador {
+            font-weight: 300;
+            font-size: 19px;
+            cursor: pointer;
+            margin-left: 6px;
+            position: relative;
+            right: -5px; }
+          #formulario .content .contenedor .form_fields .row_jugador input, #formulario .content .contenedor .form_fields .row_jugador select {
+            width: 54px;
+            height: 38px;
+            color: #afafaf;
+            padding: 0 5px;
+            font-size: 15px;
+            margin: 0 5px; }
+          #formulario .content .contenedor .form_fields .row_jugador select {
+            height: 42px;
+            background: transparent; }
+          #formulario .content .contenedor .form_fields .row_jugador .nombre_jugador {
+            width: 119px; }
+        #formulario .content .contenedor .form_fields .row_arquero {
+          text-align: right;
+          margin: 0 -22px 6px 0; }
+          #formulario .content .contenedor .form_fields .row_arquero .btn_delete .btn_delete_short .btn_delete_conjunto_jugador {
+            font-weight: 300;
+            font-size: 19px;
+            cursor: pointer;
+            margin-left: 6px;
+            position: relative;
+            right: -5px; }
+          #formulario .content .contenedor .form_fields .row_arquero input, #formulario .content .contenedor .form_fields .row_arquero select {
+            width: 54px;
+            height: 38px;
+            color: #afafaf;
+            padding: 0 5px;
+            font-size: 15px;
+            margin: 0 5px; }
+          #formulario .content .contenedor .form_fields .row_arquero select {
+            height: 42px;
+            background: transparent; }
+          #formulario .content .contenedor .form_fields .row_arquero .nombre_arquero {
+            width: 119px; }
+        #formulario .content .contenedor .form_fields #add_jugador, #formulario .content .contenedor .form_fields #add_arquero {
+          margin: 10px 0 10px 174px;
+          height: 48px;
+          cursor: pointer;
+          width: 535px;
+          position: relative; }
+          #formulario .content .contenedor .form_fields #add_jugador .add_cont, #formulario .content .contenedor .form_fields #add_arquero .add_cont {
+            text-transform: uppercase;
+            position: absolute;
+            top: 12px; }
+            #formulario .content .contenedor .form_fields #add_jugador .add_cont img, #formulario .content .contenedor .form_fields #add_arquero .add_cont img {
+              position: relative;
+              top: 6px; }
+
+              #formulario .content .contenedor .form_fields #add_jugador, #formulario .content .contenedor .form_fields #add_short_arquero, #formulario .content .contenedor .form_fields #add_conjunto_arquero {
+                margin: 10px 0 10px 174px;
+                height: 48px;
+                cursor: pointer;
+                width: 535px;
+                position: relative; }
+                #formulario .content .contenedor .form_fields #add_jugador .add_cont, #formulario .content .contenedor .form_fields #add_short_arquero .add_cont, #formulario .content .contenedor .form_fields #add_conjunto_arquero .add_cont {
+                  text-transform: uppercase;
+                  position: absolute;
+                  top: 12px; }
+                  #formulario .content .contenedor .form_fields #add_jugador .add_cont img, #formulario .content .contenedor .form_fields #add_short_arquero .add_cont img, #formulario .content .contenedor .form_fields #add_conjunto_arquero .add_cont img {
+                    position: relative;
+                    top: 6px; }
+
+                    #formulario .content .contenedor .form_fields #add_jugador, #formulario .content .contenedor .form_fields #add_short_jugador, #formulario .content .contenedor .form_fields #add_conjunto_jugador {
+                      margin: 10px 0 10px 174px;
+                      height: 48px;
+                      cursor: pointer;
+                      width: 535px;
+                      position: relative; }
+                      #formulario .content .contenedor .form_fields #add_jugador .add_cont, #formulario .content .contenedor .form_fields #add_short_jugador .add_cont, #formulario .content .contenedor .form_fields #add_conjunto_jugador .add_cont {
+                        text-transform: uppercase;
+                        position: absolute;
+                        top: 12px; }
+                        #formulario .content .contenedor .form_fields #add_jugador .add_cont img, #formulario .content .contenedor .form_fields #add_short_jugador .add_cont img, #formulario .content .contenedor .form_fields #add_conjunto_jugador .add_cont img {
+                          position: relative;
+                          top: 6px; }
+
+    #formulario .content .bottom {
+      margin: 45px 0 0 70px;
+      width: 60%; }
+      #formulario .content .bottom #btn_enviar, #formulario .content .bottom #btn_modificar {
+        float: right; }
+      #formulario .content .bottom #btn_enviar {
+        border: none; }
+
+#formulario {
+  display: none;
+  width: 1116px;
+  height: auto;
+  padding: 27px;
+  padding-top: 0px;
+  margin: 50px auto;
+  background: #ffffff; }
+  #formulario .top {
+    height: 60px;
+    margin-bottom: 29px; }
+    #formulario .top h2 {
+      font-size: 34px;
+      text-transform: uppercase;
+      margin-top: 18px; }
+    #formulario .top .slogan {
+      font-size: 21px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 8px;
+      display: block;
+      float: left; }
+    #formulario .top .alert_min {
+      font-size: 15px;
+      color: #afafaf;
+      font-weight: 700;
+      float: left;
+      margin: 8px 0 0 27px; }
+  #formulario .content {
+    display: inline-block;
+    height: auto;
+    padding-bottom: 46px;
+    width: 100%; }
+    #formulario .content .contenedor {
+      width: 100%;
+      height: auto;
+      display: inline-block; }
+      #formulario .content .contenedor .form_fields {
+        width: 47%;
+        margin-left: 70px;
+        margin-top: 33px;
+        font-size: 15px;
+        color: #afafaf;
+        font-weight: 700; }
+        #formulario .content .contenedor .form_fields .divisor_player {
+          width: 600px;
+          margin: 20px 0;
+          border-bottom: none;
+          border-left: none;
+          border-right: none; }
+        #formulario .content .contenedor .form_fields .row {
+          height: 44px;
+          margin-bottom: 9px; }
+          #formulario .content .contenedor .form_fields .row label {
+            float: right;
+            padding-top: 17px;
+            margin-right: 11px; }
+          #formulario .content .contenedor .form_fields .row input[type="text"] {
+            width: 340px;
+            height: 38px;
+            float: right;
+            font-size: 15px;
+            color: #afafaf;
+            padding: 0 5px; }
+          #formulario .content .contenedor .form_fields .row input[type="file"] {
+            width: 340px;
+            height: 38px;
+            float: right;
+            font-size: 15px;
+            color: #afafaf;
+            padding: 0 5px; }
+          #formulario .content .contenedor .form_fields .row select {
+            width: 154px;
+            height: 38px;
+            color: #afafaf;
+            padding: 0 5px;
+            font-size: 15px;
+            margin: 0 5px;
+            float: right;
+          }
+          #formulario .content .contenedor .form_fields .row textarea {
+            width: 340px;
+            height: 88px;
+            float: right;
+            font-size: 15px;
+            color: #afafaf;
+            padding: 0 5px;
+            border: 1px solid #ebebeb;
+            margin-top: 8px; }
+        #formulario .content .contenedor .form_fields .divisor {
+          padding: 15px 0 20px 37px; }
+          #formulario .content .contenedor .form_fields .divisor span {
+            text-transform: uppercase; }
+        #formulario .content .contenedor .form_fields .row_jugador {
+          text-align: right;
+          margin: 0 -22px 6px 0; }
+          #formulario .content .contenedor .form_fields .row_jugador .btn_delete .btn_delete_short .btn_delete_conjunto_jugador {
+            font-weight: 300;
+            font-size: 19px;
+            cursor: pointer;
+            margin-left: 6px;
+            position: relative;
+            right: -5px; }
+          #formulario .content .contenedor .form_fields .row_jugador input, #formulario .content .contenedor .form_fields .row_jugador select {
+            width: 54px;
+            height: 38px;
+            color: #afafaf;
+            padding: 0 5px;
+            font-size: 15px;
+            margin: 0 5px; }
+          #formulario .content .contenedor .form_fields .row_jugador select {
+            height: 42px;
+            background: transparent; }
+          #formulario .content .contenedor .form_fields .row_jugador .nombre_jugador {
+            width: 119px; }
+        #formulario .content .contenedor .form_fields .row_arquero {
+          text-align: right;
+          margin: 0 -22px 6px 0; }
+          #formulario .content .contenedor .form_fields .row_arquero .btn_delete .btn_delete_short .btn_delete_conjunto_jugador {
+            font-weight: 300;
+            font-size: 19px;
+            cursor: pointer;
+            margin-left: 6px;
+            position: relative;
+            right: -5px; }
+          #formulario .content .contenedor .form_fields .row_arquero input, #formulario .content .contenedor .form_fields .row_arquero select {
+            width: 54px;
+            height: 38px;
+            color: #afafaf;
+            padding: 0 5px;
+            font-size: 15px;
+            margin: 0 5px; }
+          #formulario .content .contenedor .form_fields .row_arquero select {
+            height: 42px;
+            background: transparent; }
+          #formulario .content .contenedor .form_fields .row_arquero .nombre_arquero {
+            width: 119px; }
+        #formulario .content .contenedor .form_fields #add_jugador, #formulario .content .contenedor .form_fields #add_arquero {
+          margin: 10px 0 10px 174px;
+          height: 48px;
+          cursor: pointer;
+          width: 535px;
+          position: relative; }
+          #formulario .content .contenedor .form_fields #add_jugador .add_cont, #formulario .content .contenedor .form_fields #add_arquero .add_cont {
+            text-transform: uppercase;
+            position: absolute;
+            top: 12px; }
+            #formulario .content .contenedor .form_fields #add_jugador .add_cont img, #formulario .content .contenedor .form_fields #add_arquero .add_cont img {
+              position: relative;
+              top: 6px; }
+    #formulario .content .bottom {
+      margin: 45px 0 0 70px;
+      width: 60%; }
+      #formulario .content .bottom #btn_enviar, #formulario .content .bottom #btn_modificar {
+        float: right; }
+      #formulario .content .bottom #btn_enviar {
+        border: none; }
+
+/* FINALIZADO */
+#finalizado {
+  display: none;
+  width: 1116px;
+  min-height: 600px;
+  padding: 27px;
+  margin: auto;
+  margin-top: 50px;
+  background: #ffffff; }
+
+#finalizado .content_finalizado {
+  width: 100%;
+  display: inline-block; }
+
+#finalizado .formato_nro_back img {
+  max-width: 100%; }
+
+#finalizado .p1 {
+  font-size: 35px;
+  font-weight: 700; }
+
+#finalizado .p2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 45px;
+  text-transform: uppercase; }
+
+#finalizado .p3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 31px; }
+
+#finalizado #finalizado_front, #finalizado #finalizado_back {
+  width: 265px;
+  height: 328px;
+  border: 1px solid #d8d8d8;
+  float: left;
+  margin-right: 10px;
+  position: relative; }
+
+#finalizado #finalizado_front .preview_front img, #finalizado #finalizado_front .preview_back img, #finalizado #finalizado_back .preview_front img, #finalizado #finalizado_back .preview_back img {
+  width: 100%; }
+
+#finalizado #finalizado_front .footer, #finalizado #finalizado_back .footer {
+  width: 100%;
+  height: 64px;
+  padding-top: 12px;
+  position: absolute;
+  top: 252px;
+  text-align: center;
+  background: rgba(232, 232, 232, 0.6);
+  z-index: 999999; }
+
+#finalizado #finalizado_front .footer p, #finalizado #finalizado_back .footer p {
+  font-size: 12px;
+  font-weight: 700; }
+
+#finalizado #finalizado_front .footer img, #finalizado #finalizado_back .footer img {
+  margin-top: 6px; }
+
+#finalizado #btn_pdf {
+  margin: 60px auto;
+  width: 200px;
+  background: red;
+  text-align: center;
+  color: #ffffff;
+  height: 35px;
+  border-radius: 60px;
+  padding-top: 15px;
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
+/*#precios_totales {*/
+  /*border: 1px solid red;*/
+  /*float: right;*/
+  /*width: 100%;*/
+  /*margin-top: 100px;*/
+  /*position: fixed;*/
+/*}*/
+
+.sidebarBox {
+  width: 300px;
+  float: right;
+  position: relative;
+
+}
+.scrollingBox {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+}
+.scrollingBoxFixed {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+}
+#costoTotal , .costoConDescuento {
+  width: 100%;
+}
+
+#costoTotal td, .costoConDescuento td {
+  padding-left: 20px;
+}
+#costoTotal tfoot td{
+  background-color: #a6a5a6 ;
+  padding-top: 5px;
+}
+
+.costoConDescuento tfoot td{
+  background-color: yellow ;
+  padding-top: 5px;
+}

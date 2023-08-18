@@ -1,0 +1,228 @@
+#finalizado {
+  display: block;
+  margin-top: 0; }
+  #finalizado .top .footer {
+    width: 100%;
+    height: 42px;
+    position: absolute;
+    top: 194px;
+    text-align: center;
+    background: rgba(232, 232, 232, 0.6);
+    z-index: 99999; }
+    #finalizado .top .footer p {
+      font-size: 12px;
+      font-weight: 700;
+      display: inline; }
+    #finalizado .top .footer img {
+      margin-top: 6px;
+      position: relative;
+      top: 4px;
+      margin-left: 5px; }
+  #finalizado .bottom {
+    padding-top: 50px; }
+    #finalizado .bottom .p3 {
+      margin-bottom: 31px !important; }
+    #finalizado .bottom .panel {
+      float: left;
+      width: 23%;
+      padding: 0 1%; }
+      #finalizado .bottom .panel p {
+        margin-bottom: 15px; }
+      #finalizado .bottom .panel span {
+        margin-top: 8px;
+        display: inline-block; }
+  #finalizado #list_players {
+    width: 100%; }
+    #finalizado #list_players thead td {
+      font-weight: bold; }
+  #finalizado #list_players_arq {
+    width: 100%; }
+    #finalizado #list_players_arq thead td {
+      font-weight: bold; }
+  #finalizado .formato_nro_back_mb {
+    position: absolute;
+    z-index: 9999; }
+    #finalizado .formato_nro_back_mb img {
+      width: 100%; }
+  #finalizado .vista_modelos {
+    width: 65%;
+    margin-right: 20px;
+    display: inline-block; }
+    #finalizado .vista_modelos .final_preview_front, #finalizado .vista_modelos .final_preview_back {
+      width: 158px;
+      height: 195px;
+      float: left;
+      position: relative; }
+    #finalizado .vista_modelos .final_preview_front img, #finalizado .vista_modelos .final_preview_back img {
+      width: 100%; }
+    #finalizado .vista_modelos .final_preview_short_content .final_preview_short {
+      width: 156px;
+      margin: auto; }
+      #finalizado .vista_modelos .final_preview_short_content .final_preview_short img {
+        max-height: 195px; }
+    #finalizado .vista_modelos .vista_modelo_contenedor {
+      width: 320px;
+      height: 266px;
+      margin-right: 14px;
+      border: 1px solid #d4d4d4;
+      float: left;
+      position: relative; }
+      #finalizado .vista_modelos .vista_modelo_contenedor .top_title {
+        height: 21px;
+        margin-bottom: 8px;
+        padding-top: 6px;
+        background: #a6a5a6;
+        color: #ffffff;
+        text-align: center; }
+  #finalizado .img_medias {
+    width: 50%; }
+  #finalizado .vista_modelo_arquero, #finalizado .vista_modelo_short, #finalizado .vista_modelo_medias {
+    display: block; }
+
+    #form_id_prod .content_finalizado .contenedor .form_fields .divisor_player {
+      width: 600px;
+      margin: 20px 0;
+      border-bottom: none;
+      border-left: none;
+      border-right: none; }
+
+      .titulos {
+        padding-bottom: 3px !important;
+        padding-top: 3px !important;
+        font-weight: bold;
+        background: #a6a5a6;
+        color: #ffffff;
+        text-align: center;
+      }
+
+/*# sourceMappingURL=pedido.css.map */
+/* 
+  #form_id_prod .content_finalizado {
+    display: inline-block;
+    height: auto;
+    padding-bottom: 46px;
+    width: 100%; }
+    #form_id_prod .content_finalizado .contenedor {
+      width: 100%;
+      height: auto;
+      display: inline-block; }
+      #form_id_prod .content_finalizado .contenedor .form_fields {
+        width: 47%;
+        margin-left: 70px;
+        margin-top: 33px;
+        font-size: 15px;
+        color: #afafaf;
+        font-weight: 700; }
+        #form_id_prod .content_finalizado .contenedor .form_fields .divisor_player {
+          width: 600px;
+          margin: 20px 0;
+          border-bottom: none;
+          border-left: none;
+          border-right: none; }
+        #form_id_prod .content_finalizado .contenedor .form_fields .row {
+          height: 44px;
+          margin-bottom: 9px; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row label {
+            float: right;
+            padding-top: 17px;
+            margin-right: 11px; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row input[type="text"] {
+            width: 340px;
+            height: 38px;
+            float: right;
+            font-size: 15px;
+            color: #afafaf;
+            padding: 0 5px; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row input[type="file"] {
+            width: 340px;
+            height: 38px;
+            float: right;
+            font-size: 15px;
+            color: #afafaf;
+            padding: 0 5px; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row select {
+            width: 154px;
+            height: 38px;
+            color: #afafaf;
+            padding: 0 5px;
+            font-size: 15px;
+            margin: 0 5px;
+            float: right;
+          }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row textarea {
+            width: 340px;
+            height: 88px;
+            float: right;
+            font-size: 15px;
+            color: #afafaf;
+            padding: 0 5px;
+            border: 1px solid #ebebeb;
+            margin-top: 8px; }
+        #form_id_prod .content_finalizado .contenedor .form_fields .divisor {
+          padding: 15px 0 20px 37px; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .divisor span {
+            text-transform: uppercase; }
+        #form_id_prod .content_finalizado .contenedor .form_fields .row_jugador {
+          text-align: right;
+          margin: 0 -22px 6px 0; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row_jugador .btn_delete {
+            font-weight: 300;
+            font-size: 19px;
+            cursor: pointer;
+            margin-left: 6px;
+            position: relative;
+            right: -5px; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row_jugador input, #form_id_prod .content_finalizado .contenedor .form_fields .row_jugador select {
+            width: 54px;
+            height: 38px;
+            color: #afafaf;
+            padding: 0 5px;
+            font-size: 15px;
+            margin: 0 5px; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row_jugador select {
+            height: 42px;
+            background: transparent; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row_jugador .nombre_jugador {
+            width: 119px; }
+        #form_id_prod .content_finalizado .contenedor .form_fields .row_arquero {
+          text-align: right;
+          margin: 0 -22px 6px 0; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row_arquero .btn_delete {
+            font-weight: 300;
+            font-size: 19px;
+            cursor: pointer;
+            margin-left: 6px;
+            position: relative;
+            right: -5px; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row_arquero input, #form_id_prod .content_finalizado .contenedor .form_fields .row_arquero select {
+            width: 54px;
+            height: 38px;
+            color: #afafaf;
+            padding: 0 5px;
+            font-size: 15px;
+            margin: 0 5px; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row_arquero select {
+            height: 42px;
+            background: transparent; }
+          #form_id_prod .content_finalizado .contenedor .form_fields .row_arquero .nombre_arquero {
+            width: 119px; }
+        #form_id_prod .content_finalizado .contenedor .form_fields #add_jugador, #form_id_prod .content_finalizado .contenedor .form_fields #add_arquero {
+          margin: 10px 0 10px 174px;
+          height: 48px;
+          cursor: pointer;
+          width: 535px;
+          position: relative; }
+          #form_id_prod .content_finalizado .contenedor .form_fields #add_jugador .add_cont, #form_id_prod .content_finalizado .contenedor .form_fields #add_arquero .add_cont {
+            text-transform: uppercase;
+            position: absolute;
+            top: 12px; }
+            #form_id_prod .content_finalizado .contenedor .form_fields #add_jugador .add_cont img, #form_id_prod .content_finalizado .contenedor .form_fields #add_arquero .add_cont img {
+              position: relative;
+              top: 6px; }
+    #form_id_prod .content_finalizado .bottom {
+      margin: 45px 0 0 70px;
+      width: 60%; }
+      #form_id_prod .content_finalizado .bottom #btn_enviar, #form_id_prod .content_finalizado .bottom #btn_modificar {
+        float: right; }
+      #form_id_prod .content_finalizado .bottom #btn_enviar {
+        border: none; } */
